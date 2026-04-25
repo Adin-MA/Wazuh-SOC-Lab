@@ -4,7 +4,7 @@ This project is a home lab SIEM setup using Wazuh for security monitoring and lo
 
 ---
 
-## 🎯 Objective
+## Objective
 To build a basic SIEM environment for:
 - Log collection and monitoring
 - Security event detection
@@ -12,13 +12,13 @@ To build a basic SIEM environment for:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 - Wazuh (SIEM platform)
 - Wazuh Agent (endpoint monitoring)
 
 ---
 
-## 🧱 Architecture
+## Architecture
 See `/architecture` folder for full system diagram.
 
 Flow:
@@ -26,7 +26,7 @@ Endpoint → Wazuh Agent → Wazuh Server → Alerts
 
 ---
 
-## 🚧 Current Status
+## Current Status
 🚧 Setup not started yet.
 
 Planned:
@@ -38,7 +38,7 @@ Last updated: 25 April 2026
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 - Add Elasticsearch / OpenSearch integration
 - Improve visualization dashboard
 - Add more detection rules
