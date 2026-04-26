@@ -34,7 +34,35 @@ Endpoint (Ubuntu) → Wazuh Agent → Wazuh Server (Debian) → Alerts & Log Ana
 ```bash
 sudo systemctl status wazuh-manager
 ```
-- Bala
+- Check Wazuh Agent status (Ubuntu)
+```bash
+sudo systemctl status wazuh-agent
+```
+- List connected agents (Debian)
+```bash
+sudo /var/ossec/bin/agent_control -l
+```
+Expected Output
+```bash
+Active ubuntu-agent
+```
+- View real-time alerts (MOST IMPORTANT)
+```bash
+sudo tail -f /var/ossec/logs/alerts/alerts.log
+```
+- View Manager Logs
+```bash
+sudo tail -f /var/ossec/logs/ossec.log
+```
+- Restart Service
+  Manager (Debian)
+```bash
+sudo systemctl restart wazuh-manager
+```
+  Agent (Ubuntu)
+```bash
+sudo systemctl restart wazuh-agent
+```
 
 ---
 
