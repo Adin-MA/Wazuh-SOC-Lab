@@ -54,8 +54,9 @@ sudo tail -f /var/ossec/logs/alerts/alerts.log
 ```bash
 sudo tail -f /var/ossec/logs/ossec.log
 ```
+
 - Restart Service <br>
-  <sub>Manager (Debian)</sub>  
+<sub>Manager (Debian)</sub>  
 ```bash
 sudo systemctl restart wazuh-manager
 ```
@@ -69,10 +70,23 @@ sudo systemctl restart wazuh-agent
 ## Current Status
 🚧 Setup completed (Basic lab environment running).
 
-Planned:
-- Install 
-
 Last updated: 26 April 2026
+
+---
+
+## Testing Simulator
+Generate test events on Ubuntu:
+```bash
+sudo ls root
+```
+or failed SSH login simulation:
+```bash
+ssh fakeuser@localhost
+```
+Check alerts on debian: 
+```bash
+sudo tail -f /var/ossec/logs/alerts/alerts.log
+```
 
 ---
 
@@ -83,10 +97,10 @@ Last updated: 26 April 2026
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 (To be added)
 
 ---
 
-## 📖 Notes
+## Notes
 This is a personal cybersecurity learning project for SOC/SIEM practice.
