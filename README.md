@@ -42,7 +42,7 @@ sudo systemctl status wazuh-agent
 ```bash
 sudo /var/ossec/bin/agent_control -l
 ```
-Expected Output
+<p>Expected Output</p> 
 ```bash
 Active ubuntu-agent
 ```
@@ -54,8 +54,8 @@ sudo tail -f /var/ossec/logs/alerts/alerts.log
 ```bash
 sudo tail -f /var/ossec/logs/ossec.log
 ```
-- Restart Service
-  Manager (Debian)
+- Restart Service <br>
+  Manager (Debian)  
 ```bash
 sudo systemctl restart wazuh-manager
 ```
@@ -67,14 +67,12 @@ sudo systemctl restart wazuh-agent
 ---
 
 ## Current Status
-🚧 Setup not started yet.
+🚧 Setup completed (Basic lab environment running).
 
 Planned:
-- Install Wazuh
-- Configure agent & server
-- Build SIEM lab environment
+- Install 
 
-Last updated: 25 April 2026
+Last updated: 26 April 2026
 
 ---
 
