@@ -13,7 +13,7 @@ To build a basic SIEM environment for:
 ---
 
 ## Tools Used
-- :contentReference[oaicite:0]{index=0} Wazuh (SIEM platform)
+- Wazuh (SIEM platform)
 - Wazuh Agent (endpoint monitoring)
 - Wazuh Server / Manager
 - Agent Endpoint
@@ -25,7 +25,16 @@ To build a basic SIEM environment for:
 See `/architecture` folder for full system diagram.
 
 Flow:
-Endpoint → Wazuh Agent → Wazuh Server → Alerts
+Endpoint (Ubuntu) → Wazuh Agent → Wazuh Server (Debian) → Alerts & Log Analysis
+
+---
+
+## Wazuh Basic Command 
+- Check Wazuh Manager status (Debian)
+'''
+sudo systemctl status wazuh-manager
+'''
+- Bala
 
 ---
 
