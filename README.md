@@ -42,7 +42,7 @@ sudo systemctl status wazuh-agent
 ```bash
 sudo /var/ossec/bin/agent_control -l
 ```
-<p>Expected Output</p> 
+<sub>Expected Output</sub>
 ```bash
 Active ubuntu-agent
 ```
@@ -55,11 +55,11 @@ sudo tail -f /var/ossec/logs/alerts/alerts.log
 sudo tail -f /var/ossec/logs/ossec.log
 ```
 - Restart Service <br>
-  Manager (Debian)  
+  <sub>Manager (Debian)</sub>  
 ```bash
 sudo systemctl restart wazuh-manager
 ```
-  Agent (Ubuntu)
+  <sub>Agent (Ubuntu)</sub>
 ```bash
 sudo systemctl restart wazuh-agent
 ```
