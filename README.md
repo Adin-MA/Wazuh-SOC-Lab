@@ -56,6 +56,7 @@ sudo tail -f /var/ossec/logs/ossec.log
 ```
 
 - Restart Service <br>
+
 <sub>Manager (Debian)</sub>  
 ```bash
 sudo systemctl restart wazuh-manager
