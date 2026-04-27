@@ -31,9 +31,9 @@ Endpoint (Ubuntu) → Wazuh Agent → Wazuh Server (Debian) → Alerts & Log Ana
 
 ## Wazuh Basic Command 
 - Check Wazuh Manager status (Debian)
-<pre>```bash
+```bash
 sudo systemctl status wazuh-manager 
-```</pre>
+```
 - Check Wazuh Agent status (Ubuntu)
 ```bash
 sudo systemctl status wazuh-agent
