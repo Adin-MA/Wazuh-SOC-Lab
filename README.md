@@ -72,5 +72,16 @@ sudo tail -f /var/ossec/logs/alerts/alerts.log
 
 ---
 
+## Demo
+
+[Add screenshot / GIF here]
+
+Example:
+- Multiple failed SSH login attempts detected
+- Alert triggered in Wazuh
+- Attacker IP automatically blocked
+
+---
+
 ## Notes
 This is a personal cybersecurity learning project for SOC/SIEM practice.
