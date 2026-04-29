@@ -1,6 +1,6 @@
 # SIEM Lab Setup With Wazuh
 
-This project is a home lab SIEM setup using Wazuh for security monitoring and log analysis.
+A hands-on SIEM lab project that detects SSH brute-force attacks and automatically blocks malicious IPs using Wazuh.
 
 ---
 
