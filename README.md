@@ -29,6 +29,14 @@ Endpoint (Ubuntu) → Wazuh Agent → Wazuh Server (Debian) → Alerts & Log Ana
 
 ---
 
+## Key Features
+- Real-time log monitoring
+- SSH brute-force detection
+- Automated IP blocking (active response)
+- Centralized log analysis
+
+---
+
 ## Current Status
 🚧 Setup completed (Basic lab environment running).
 
