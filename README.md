@@ -61,9 +61,9 @@ sudo tail -f /var/ossec/logs/alerts/alerts.log
 ---
 
 ## Future Improvements
-- Add Elasticsearch / OpenSearch integration
-- Improve visualization dashboard
-- Add more detection rules
+- Integrate with OpenSearch for better visualization
+- Add custom detection rules
+- Implement alert notifications (Telegram / Email)
 
 ---
 
