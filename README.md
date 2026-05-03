@@ -40,7 +40,7 @@ Endpoint (Ubuntu) → Wazuh Agent → Wazuh Server (Debian) → Alerts & Log Ana
 ## Current Status
 🚧 Setup completed (Basic lab environment running).
 
-Last updated: 29 April 2026
+Last updated: 3 Mei 2026
 
 ---
 
@@ -68,8 +68,11 @@ sudo tail -f /var/ossec/logs/alerts/alerts.log
 ---
 
 ## Screenshots
-(To be added)
 
+- Wazuh Real-time Logs
+<p align="center"> 
+ <img src="Assets/Main/Wazuh-Alert.png" width="800"/>
+</p>
 ---
 
 ## Demo
