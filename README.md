@@ -78,20 +78,11 @@ sudo tail -f /var/ossec/logs/alerts/alerts.log
 
 ## Demo
 
-- Multiple failed SSH login
-  <p align="left">
-    <img src="Assets/Main/Multipled-Failed-SSH-Login-Attemps-By-Attacker.png" width="600">
-  </p>
-  
-- Alert triggered in Wazuh
-   <p align="left">
-    <img src="Assets/Main/Alert-Triggered-In-Wazuh.png" width="600">
-  </p>
-  
-- Attacker IP automatically blocked
-  <p align="left">
-    <img src="Assets/Main/IP-Blocked-By-Agent.png" width="600">
-  </p>
+- SSH brute-force simulation
+- SIEM detection
+- Automated IP blocking
+
+More Screenshoot and walkthrough availabel in /demo
 
 ---
 
