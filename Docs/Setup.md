@@ -1,6 +1,8 @@
 # Wazuh Basic Command 
 Basic Command for using Wazuh
 
+---
+
 ## Wazuh Service Status
 - Check Wazuh Manager status (Manager)
 ```bash
