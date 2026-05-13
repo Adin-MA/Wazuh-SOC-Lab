@@ -5,7 +5,7 @@ This section demonstrates basic Wazuh SIEM operations including monitoring, rule
 
 ## SSH Brute Force Auto Blocking
 
-### Mulipled Failed SSH Login by Attacker 
+### Muliples Failed SSH Login by Attacker 
 <p align="left"> 
  <img src="../Assets/Demo/Multipled-Failed-SSH-Login-Attemps-By-Attacker.png" width="800"/>
 </p>
