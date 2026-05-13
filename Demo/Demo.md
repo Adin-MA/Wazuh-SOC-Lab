@@ -9,7 +9,7 @@ This section demonstrates basic Wazuh SIEM operations including monitoring, rule
 <p align="left"> 
  <img src="../Assets/Demo/Multipled-Failed-SSH-Login-Attemps-By-Attacker.png" width="800"/>
 </p>
-Attacker attack server wazuh agent
+Attacker attack Wazuh Agent Server via SSH
 
 ### Alert Trigger
 <p align="left"> 
