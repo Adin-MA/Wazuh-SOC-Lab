@@ -4,11 +4,11 @@ Basic Command for using Wazuh
 ---
 
 ## Wazuh Service Status
-- Check Wazuh Manager status (Manager)
+- Check Wazuh Manager status
 ```bash
 sudo systemctl status wazuh-manager 
 ```
-- Check Wazuh Agent status (Agent)
+- Check Wazuh Agent status 
 ```bash
 sudo systemctl status wazuh-agent
 ```
@@ -17,11 +17,11 @@ sudo systemctl status wazuh-agent
 
 ## Wazuh Service Restart <br>
 
-<sub>Manager (Debian)</sub>  
+- Restart Wazuh Manager   
 ```bash
 sudo systemctl restart wazuh-manager
 ```
-   <sub>Agent (Ubuntu)</sub>  
+- Restart Wazuh Agent  
 ```bash
 sudo systemctl restart wazuh-agent
 ```
@@ -37,7 +37,7 @@ sudo /var/ossec/bin/manage_agents
 ```bash
   sudo /var/ossec/bin/manage_agents
 ```
-- List connected agents (Manager)
+- List Connected Agents (Manager)
 ```bash
 sudo /var/ossec/bin/agent_control -l
 ```
@@ -49,7 +49,7 @@ Active ubuntu-agent
 ---
 
 ## Wazuh Monitoring and Logs
-- View real-time alerts (MOST IMPORTANT)
+- View Real-time Alerts (MOST IMPORTANT)
 ```bash
 sudo tail -f /var/ossec/logs/alerts/alerts.log
 ```
