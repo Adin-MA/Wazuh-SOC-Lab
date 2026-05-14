@@ -70,5 +70,7 @@ sudo nano /var/ossec/etc/ossec.conf
 ```bash
 sudo nano /var/ossec/etc/rules/local_rules.xml
 ```
- 
-  
+- Wazuh Integration Telegram
+```bash
+sudo nano /var/ossec/integrations/custom-telegrams
+```  
