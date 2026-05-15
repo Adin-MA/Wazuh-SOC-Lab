@@ -1,8 +1,9 @@
 <group name="authentication,bruteforce">
 
-  <rule id="2502" level="13" overwrite="yes">
+  <rule id="100100" level="13" frequency="10" timeframe="120">
     <if_sid>5760</if_sid>
-    <description>SSH Brute Force detection (Custom Level)</description>
+    <same_source_ip />
+    <description>SSH Brute Force detection</description>
   </rule>
 
 </group>
