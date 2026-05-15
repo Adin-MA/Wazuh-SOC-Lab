@@ -9,10 +9,10 @@ hook_url = sys.argv[3]
 alert_json = json.loads(alert_file.read())
 alert_file.close()
 
-alert_level = alert_json['rule']['level']
-description = alert_json['rule'] ['description']
-agent_name = alert_json['agent']['name']
-rule_id= alert_json['rule']['id']
+alert_level = alert_json.get('rule', {}).get('level')
+description = alert_json.get('rule', {}).get('description')
+agent_name = alert_json.get('agent', {}).get('name')
+rule_id= alert_json.get('rule', {}).get('id')
 
 raw_time = alert_json.get('timestamp') or alert_json.get('@timestamp')
 try: 
@@ -22,7 +22,7 @@ except:
   time_str = raw_time
 
 src_ip = (
-  alert_json.get('data', ()).get('srcip') 
+  alert_json.get('data', {}).get('srcip') 
   or alert_json.get('srcip') 
   or Unknown
 )
