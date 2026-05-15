@@ -28,10 +28,11 @@ src_ip = (
 )
 
 msg = f"⚠️ Wazuh Alert (Level {alert_level})\n\n"
-msg += f" Agent: {agent_name}\n"
-msg += f"IP: {src_ip}\n"
-msg += f"Time: {time_str}\n"
-msg += f"Description: {description}\n"
+msg += f"Agent        : {agent_name}\n"
+msg += f"Source IP  : {src_ip}\n"
+msg += f"Rule ID      : {rule_id}\n"
+msg += f"Time         : {time_str}\n"
+msg += f"Description:\n{description}\n"
 
 if description == "SSH Brute Force detection": 
 msg += "\n STATUS: IP BLOCKED BY IPTABLES"
