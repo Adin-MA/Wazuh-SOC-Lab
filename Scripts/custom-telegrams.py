@@ -24,10 +24,10 @@ except:
 src_ip = (
   alert_json.get('data', {}).get('srcip') 
   or alert_json.get('srcip') 
-  or Unknown
+  or "Unknown"
 )
 
-msg = f"A Wazuh Alert (Level (alert_level})\n\n"
+msg = f"A Wazuh Alert (Level {alert_level})\n\n"
 msg += f" Agent: (agent_name}\n"
 msg += "IP: {}\n".format(src_ip) msg += f"+Time: {time_str}\n"
 msg += f"Description: (description}\n"
