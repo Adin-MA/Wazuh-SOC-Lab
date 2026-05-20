@@ -3,7 +3,19 @@
   <rule id="100100" level="13" frequency="7" timeframe="120">
     <if_sid>5760</if_sid>
     <same_source_ip />
-    <description>SSH Brute Force detection</description>
+    <description>SSH Brute Force detection (L1)</description>
   </rule>
 
+  <rule id="100101" level="13" frequency="2" timeframe="3600">
+    <if_sid>100100</if_sid>
+    <same_source_ip />
+    <description>SSH Brute Force detection (L2)</description>
+  </rule>
+
+  <rule id="100102" level="15" frequency="2" timeframe="10800">
+    <if_sid>100101</if_sid>
+    <same_source_ip />
+    <description>SSH Brute Force detection (L3)</description>
+  </rule>
+  
 </group>
