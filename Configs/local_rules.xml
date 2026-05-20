@@ -6,7 +6,7 @@
     <description>SSH Brute Force detection (L1)</description>
   </rule>
 
-  <rule id="100101" level="13" frequency="2" timeframe="3600">
+  <rule id="100101" level="14" frequency="2" timeframe="3600">
     <if_sid>100100</if_sid>
     <same_source_ip />
     <description>SSH Brute Force detection (L2)</description>
