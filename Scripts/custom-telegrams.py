@@ -34,8 +34,13 @@ msg += f"Rule ID      : {rule_id}\n"
 msg += f"Time         : {time_str}\n"
 msg += f"Description:\n{description}\n"
 
-if description == "SSH Brute Force detection": 
-msg += "\n STATUS: IP BLOCKED BY IPTABLES"
+if description == "SSH Brute Force detection (L1)": 
+  msg += "\n STATUS: IP BLOCKED 1 MINUTES BY IPTABLES"
+elif description == "SSH Brute Force detection (L2)": 
+  msg += "\n STATUS: IP BLOCKED 1 HOUR BY IPTABLES"
+elif description == "SSH Brute Force detection (L3)": 
+  msg += "\n STATUS: IP BLOCKED PERMANENT BY IPTABLES"
+
 
 chat_id = "YOUR_CHAT_ID_BOT"
 
