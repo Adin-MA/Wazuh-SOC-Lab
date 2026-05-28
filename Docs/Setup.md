@@ -49,7 +49,7 @@ Active ubuntu-agent
 ---
 
 ## Wazuh Monitoring and Logs
-- View Real-time Alerts (MOST IMPORTANT)
+- View Real-time Alerts
 ```bash
 sudo tail -f /var/ossec/logs/alerts/alerts.log
 ```
