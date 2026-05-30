@@ -41,11 +41,11 @@ msg += f"Rule ID      : {rule_id}\n"
 msg += f"Time         : {time_str}\n"
 msg += f"Description:\n{description}\n"
 
-if rule_id = "100100": 
+if rule_id == "100100": 
   msg += "\n STATUS: IP BLOCKED 1 MINUTES BY IPTABLES"
-elif rule_id = "100101": 
+elif rule_id == "100101": 
   msg += "\n STATUS: IP BLOCKED 1 HOUR BY IPTABLES"
-elif rule_id = "100102": 
+elif rule_id == "100102": 
   msg += "\n STATUS: IP BLOCKED PERMANENT BY IPTABLES"
 
 payload = {
