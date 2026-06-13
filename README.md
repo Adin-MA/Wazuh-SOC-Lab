@@ -21,6 +21,21 @@ Full technical diagram and flow: [`/Architecture`](./Architecture/README.md)
 
 ---
 
+## Security Response Flow
+
+``` bash
+Attack Simulation (Kali Linux)
+→ Endpoint (Ubuntu Server)
+→ Wazuh Agent
+→ Wazuh Manager (Debian)
+→ Detection Engine (Rule + Threshold)
+→ Alert Generation
+→ Active Response (IP Blocking)
+→ Telegram Notification
+```
+
+---
+
 ## Lab Components
 
 | Component | OS | Description |
@@ -32,16 +47,18 @@ Full technical diagram and flow: [`/Architecture`](./Architecture/README.md)
 
 ---
 
-## Key Features
-- Real-time log monitoring
-- SSH brute-force detection
-- Automated IP blocking (active response)
-- Centralized log analysis
+## Key Capabilities
 
+- Real-time log ingestion from endpoint machines
+- Threshold-based SSH brute-force detection (event correlation over time window to reduce false positives)
+- Automated incident response via Active Response (IP blocking)
+- Centralized security event monitoring and analysis
+- Telegram-based security alert notifications
+- 
 ---
 
 ## Current Status
-Current Version: v1.1 (SSH Detection + Active Response)
+Current Version: v2.0 (SSH Detection + Active Response + Telegram Alerts)
 
 Implemented:
 - Wazuh deployment
@@ -74,7 +91,7 @@ In Progress:
 | Privilege Escalation | 🚧 |
 | File Integrity Monitoring | ⏳ |
 
-Detailed available in [`/Demo`](./Demo/README.md).
+Each scenario includes detection logic, alert behavior, and response actions. Full details available in [`/Demo`](./Demo/README.md).
 
 ---
 
