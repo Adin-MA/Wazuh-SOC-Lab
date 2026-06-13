@@ -14,10 +14,10 @@ To build a SIEM lab environment for:
 ---
 
 ## Architecture
-See [`/Architecture`](./Architecture/README.md) folder for full system diagram.
 
-Flow:
-Endpoint (Ubuntu) → Wazuh Agent → Wazuh Server (Debian) → Alerts & Log Analysis
+This project follows a centralized SIEM architecture using Wazuh for log collection, detection, and automated response.
+
+Full technical diagram and flow: [`/Architecture`](./Architecture/README.md)
 
 ---
 
