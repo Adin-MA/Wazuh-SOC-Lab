@@ -83,6 +83,8 @@ sudo nano /var/ossec/etc/rules/local_rules.xml
 sudo nano /var/ossec/integrations/custom-telegrams
 ```  
 
+---
+
 ## IP Tables Basic Command
 
 ### - Check IP Blocked by IP Tables
