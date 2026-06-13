@@ -91,7 +91,7 @@ In Progress:
 | Privilege Escalation | 🚧 |
 | File Integrity Monitoring | ⏳ |
 
-Each scenario includes detection logic, alert behavior, and response actions. Full details available in [`/Demo`](./Demo/README.md).
+Each scenario includes detection logic, alert behavior, and response actions. Full details available in [`/Demo`](./Demo/Demo.md).
 
 ---
 
