@@ -20,11 +20,12 @@
   
 </group>
 
-<group name="Activity,Root">
+<group name="activity,root">
   
-  <rule id="100200" level="11">
-    <if_matched_sid>5402</if_matched_sid>
-    <description>Root Activity Detected (Low)</description>
+  <rule id="100200" level="14">
+    <if_sid>5402</if_sid>
+    <match>COMMAND=/usr/bin/(sh|bash)</match>
+    <description>Suspicious Root Activity Detected</description>
   </rule>
 
 </group>
