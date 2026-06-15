@@ -58,7 +58,7 @@ Full technical diagram and flow: [`/Architecture`](./Architecture/ARCHITECTURE.m
 ---
 
 ## Current Status
-Current Version: v2.0 (SSH Detection + Active Response + Telegram Alerts) 🚀
+Current Version: v2.1 (SSH Detection + Active Response + Telegram Alerts) 🚀
 
 Implemented:
 - Wazuh deployment
