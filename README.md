@@ -1,6 +1,6 @@
 # SIEM Lab Setup With Wazuh
 
-A hands-on SIEM lab built with Wazuh for log monitoring, threat detection, attack simulation, and automated incident response..
+A hands-on SIEM lab built with Wazuh for log monitoring, threat detection, attack simulation, and automated incident response.
 
 ---
 
@@ -42,7 +42,7 @@ Full technical diagram and flow: [`/Architecture`](./Architecture/ARCHITECTURE.m
 |------------|------------|------------|
 | SIEM Server | Debian 13 | Wazuh Manager for log collection, analysis, and alerting |
 | Agent Endpoint | Ubuntu Server 26.04 | Log source / target machine for attack simulation |
-| Attack Simulation Host | Kali Linux 1.16 | Security testing and SSH brute-force simulation |
+| Attack Simulation Host | Kali Linux 2025.4 | Security testing and SSH brute-force simulation |
 | Virtualization Platform | VirtualBox 7.2.4 | Virtual environment for lab deployment |
 
 ---
@@ -58,16 +58,28 @@ Full technical diagram and flow: [`/Architecture`](./Architecture/ARCHITECTURE.m
 ---
 
 ## Current Status
-Current Version: v2.1 (SSH Detection + Active Response + Telegram Alerts) 🚀
+Current Version: **v2.1** (SSH Detection + Active Response + Telegram Alerts) 🚀
 
-Implemented:
+---
+
+## What's New in v2.1
+- Added initial root activity detection for `sudo bash` and `sudo sh`
+- Improved Telegram alert filtering and processing
+- Refactored detection logic to use alert groups
+- Continued development of root activity monitoring
+
+---
+
+## Implemented:
 - Wazuh deployment
 - Agent registration
 - SSH brute-force detection
 - Active response blocking
 - Alert monitoring
 
-In Progress:
+---
+
+## In Progress:
 - Root activity monitoring
 
 ---
@@ -75,7 +87,6 @@ In Progress:
 ## Future Improvements
 
 - Log visualization layer (OpenSearch / OpenSearch Dashboards)
-- Root access monitoring (sudo / privileged command abuse detection)
 - Privilege escalation detection (unauthorized permission or role changes)
 - File Integrity Monitoring (critical system file change tracking)
 - MITRE ATT&CK mapping for detection rules and alerts
