@@ -35,7 +35,7 @@ sudo /var/ossec/bin/manage_agents
 ```
 - Import Key Agent (Agent)
 ```bash
-  sudo /var/ossec/bin/manage_agents
+sudo /var/ossec/bin/manage_agents
 ```
 - List Connected Agents (Manager)
 ```bash
