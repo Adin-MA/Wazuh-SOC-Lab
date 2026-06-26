@@ -70,15 +70,17 @@ Full technical diagram and flow: [`/Architecture`](./Architecture/ARCHITECTURE.m
 ---
 
 ## Current Status
-Current Version: **v2.1** (SSH Detection + Active Response + Telegram Alerts) 🚀
+Current Version: **v2.2** (SSH Detection + Active Response + Root Activity Monitoring + Telegram Improvements) 🚀
 
 ---
 
-## What's New in v2.1
-- Added initial root activity detection for `sudo bash` and `sudo sh`
-- Improved Telegram alert filtering and processing
-- Refactored detection logic to use alert groups
-- Continued development of root activity monitoring
+## What's New in v2.2
+- Added custom root activity detection rules for `sudo bash` and `sudo sh`
+- Improved Telegram integration with structured alert routing using Wazuh rule groups
+- Added additional event context extraction (`command`, `tty`, and alert metadata)
+- Improved alert handling to reduce unrelated notifications
+- Fixed duplicate alert handling issues during root activity testing
+- Continued development of root activity severity classification
 
 ---
 
@@ -92,7 +94,8 @@ Current Version: **v2.1** (SSH Detection + Active Response + Telegram Alerts) �
 ---
 
 ## In Progress:
-- Root activity monitoring
+- Root activity monitoring (Detection logic completed, severity tuning in progress)
+- Alert classification based on command context and execution environment
 
 ---
 
